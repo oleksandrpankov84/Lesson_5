@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;900&display=swap');
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+}
+.header{
+	color: lightslategrey;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px red, 3px 3px 3px blue;
+	letter-spacing: 5px;
+}
+h1{
+	font-family: "Jost", sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	color: blue;
+	text-shadow: 0px -10px 20px yellow, 0px 10px 20px blue;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+.description{
+	font-size: 16px;
+	text-align: center;
+	color: grey;
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+}
+.text,
+.nexttext{
+	font-weight: 700;
+	text-align: right;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+.text{
+	background-color: yellow;
+}
+.text +div{
+	background-color: lightblue;
+	margin-bottom: 20px;
+}
+footer{
+	font-family: "Jost";
+	text-align: right;
+	text-decoration: overline;
+	letter-spacing: 5px;
+	font-weight: 900;
+	text-shadow: 0px -10px 20px yellow, 0px 10px 20px blue;
+}
+.textmidl p{
+	text-indent: 40px;
+	word-spacing: 20px;
+	background-color: burlywood;
+	width: 75%;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.textcap{
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+.textup{
+	width: 75%;
+	text-align: justify;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.textend{
+	text-transform: lowercase;
+}
+.block{
+	margin-left: 300px;
+}
